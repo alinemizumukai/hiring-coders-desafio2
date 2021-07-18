@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header{    
+    padding: 25px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color:#053742;
+    color: #E8F0F2;
+}
+
+#logo{
+    height: 200px;
+    width: 200px;
+}
+
+.card-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    background-image: url('../assets/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+.card{
+    padding: 25px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    height: 280px;
+    max-width: 450px;
+    background-color: #A2DBFAB3;
+    color: #053742;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#image{
+    height: 60%;
+    width: 60%;
+}
+
+p{
+    padding: 10px;
+    width: 90%;
+}
+
+form{
+    display: grid;
+}
+
+input{
+    width: 90%;
+    height: 25px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E8F0F2;
+    color: #053742;   
+}
+
+#acao:hover{
+    background-color: #053742;
+    color: #E8F0F2;
+}
+
+footer{
+    height: 100px;    
+    text-align: justify;
+    background-color: #053742;
+    color: #E8F0F2;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: #E8F0F2;
+    font-family: 'Roboto', sans-serif; 
+    padding: 10px;   
+}
+
+a:hover{
+    color: #39A2DB;
+}
