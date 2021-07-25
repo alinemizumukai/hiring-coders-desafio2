@@ -2,10 +2,6 @@
 
 <br>
 
-<p align="center">
-  <img src="./assets/logotipo.png" alt="Logotipo" width="20%">
-</p>
-
 ## Projeto desenvolvido
 
 Esse projeto foi desenvolvido como continuação do desafio #1, utilizando HTML e CSS, de acordo com as orientações recebidas ao longo do treinamento e mentorias do programa Hiring Coders - Gama Academy e VTEX.
