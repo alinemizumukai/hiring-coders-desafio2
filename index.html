@@ -11,24 +11,33 @@
 </head>
 <body>
     <header>
-        <img id="logo" src="./assets/Logotipo.png" alt="logotipo" title="Próximo Destino"/>      
+        <img id="logo" src="./assets/Logotipo.png" alt="logotipo" title="Próximo Destino"/>
+        <div>Cadastro de Pacotes de Viagens e Clientes</div>      
     </header>
     <main>
         <div class="card-container">
             <div class="card">
-                <img id="image" src="./assets/image.jpg" alt="aeroporto" title="Melhor destino" />
-                <p>Preparado para sua próxima viagem?</p>
-                <p>A sua agência favorita já está com pacotes com preços imperdíveis
-                e ainda quer te dar mais um super desconto.</p>
+                <p>Cadastro de viagens</p>
+                <div id="content1">
+                <form id="form1">
+                    <input type="text" placeholder="Nome do pacote" id="pacote"/>
+                    <input type="text" placeholder="Descrição" id="descricao"/>
+                    <input type="number" min="1" placeholder="Quantidade (dias)" id="dia"/>
+                    <input type="number" min="1" placeholder="Preço" id="preco"/>
+                    <button id="acao" type="submit">Adicionar viagem</button>                    
+                </form>
+            </div>
             </div>
 
             <div class="card">
-                <p>Cadastre-se para receber o cupom de desconto</p>
-                <div id="content">
-                <form id="form">
-                    <input type="text" placeholder="Digite seu nome" id="nome"/>
-                    <input type="text" placeholder="Digite seu e-mail" id="email"/>
-                    <input id="acao" type="submit" value="Cadastrar">
+                <p>Cadastro de clientes</p>
+                <div id="content2">
+                <form id="form2">
+                    <input type="text" placeholder="Nome completo" id="nome"/>
+                    <input type="text" placeholder="CPF" id="cpf"/>
+                    <input type="email" placeholder="E-mail" id="email"/>
+                    <input type="text" placeholder="Telefone" id="telefone"/>
+                    <button id="acao" type="submit">Adicionar cliente</button>                    
                 </form>
             </div>
             </div>

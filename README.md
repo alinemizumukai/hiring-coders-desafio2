@@ -1,7 +1,16 @@
-Desafio #1: Ecommerce - Como colocar uma loja online? Site Oficial / Landing page
+# Desafio #2: Inventário de produtos e dados de clientes
 
-Programa de treinamento: Hiring Coders - Gama Academy e VTEX
+<br>
 
-Desafio: Criar um sistema de e-commerce para cadastro de email na landing page para recebimento de novidades e promoções.
+<p align="center">
+  <img src="./assets/logotipo.png" alt="Logotipo" width="20%">
+</p>
 
-Desenvolvido por Aline Mizumukai
+## Projeto desenvolvido
+
+Esse projeto foi desenvolvido como continuação do desafio #1, utilizando HTML e CSS, de acordo com as orientações recebidas ao longo do treinamento e mentorias do programa Hiring Coders - Gama Academy e VTEX.
+
+Os funcionários da agência de turismo "Próximo Destino" podem realizar o cadastro de novos pacotes de turismo ou de novos clientes e os dados são armazenados no localstorage.
+
+Desenvolvido por Aline Mizumukai.
+

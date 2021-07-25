@@ -13,6 +13,8 @@ header{
     font-family: 'Roboto', sans-serif;
     background-color:#053742;
     color: #E8F0F2;
+    font-weight: bold;
+    font-size:x-large;
 }
 
 #logo{
@@ -34,22 +36,16 @@ header{
 }
 
 .card{
-    padding: 25px;
-    justify-content: space-around;
+    padding: 15px;    
     align-items: center;
     border-radius: 25px;
-    height: 280px;
-    max-width: 450px;
+    height: 250px;
+    width: 40%;
     background-color: #A2DBFAB3;
     color: #053742;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
-}
-
-#image{
-    height: 60%;
-    width: 60%;
 }
 
 p{
@@ -58,18 +54,29 @@ p{
 }
 
 form{
-    display: grid;
+    display:flexbox;
+    justify-content: center;
 }
 
 input{
-    width: 90%;
+    width: 80%;
     height: 25px;
-    margin: 10px;
-    text-align: center;
+    margin: 5px;
+    text-align: initial;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
     background-color: #E8F0F2;
     color: #053742;   
+}
+
+#acao{
+    width: 50%;
+    height: 30px;
+    margin: 5px;    
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E8F0F2;
+    color: #053742;
 }
 
 #acao:hover{
